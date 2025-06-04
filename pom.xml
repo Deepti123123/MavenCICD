@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>MavenCICD</name>
   <url>http://maven.apache.org</url>
+
+   <!-- Java version -->
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
   
   <dependencies>
     <dependency>
